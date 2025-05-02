@@ -1,0 +1,471 @@
+html {
+    margin: 0px;
+    font-size: 20px;
+    font-family: Times, serif;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    position: relative;
+    top: 0 !important;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    color: #333;
+    background-color: #ffffff;
+    -webkit-overflow-scrolling: touch;
+}
+
+.text-container {
+    position: absolute;
+    z-index: 999;
+    padding: 3rem;
+}
+
+@media only screen and (max-width: 750px) {
+    .textContent {
+        padding: 1rem !important;
+    }
+
+    .textContent p {
+        font-size: 16px !important;
+    }
+
+}
+
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+.home h2 {
+    font-size: 1.2rem;
+}
+
+.w {
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    max-width: 1200px;
+}
+
+.textContent {
+    text-align: left;
+    padding: 2rem 2rem 4rem;
+    font-size: 1rem;
+    max-width: 1100px;
+    background: #ffffff;
+}
+
+.textContent h1 {
+    font-size: 1.8rem;
+    margin: 2rem 0;
+    text-align: left;
+    color: #282828;
+}
+
+.textContent h2 {
+    font-size: 1.4rem;
+    margin: 50px 0 20px;
+}
+
+.textContent p {
+    margin-top: 0;
+    line-height: 1.428;
+    font-size: 1rem;
+}
+
+.textContent ul {
+    color: #363636;
+    font-size: 0.8rem;
+    list-style: none;
+    padding: 0;
+}
+
+.textContent ul li {
+    color: #5a5a5a;
+    margin-bottom: 15px;
+}
+
+.textContent ul li h3 {
+    color: #202020;
+}
+
+.textContent a {
+    text-decoration: underline;
+}
+
+/* normal css */
+/* Container */
+@media only screen and (max-width: 750px) {
+    .container {
+        padding: 0 1rem;
+        max-width: 750px;
+        margin: 0 auto;
+    }
+
+    .container1 {
+        padding: 0 1rem;
+        max-width: 750px;
+        margin: 0 auto;
+    }
+
+    .container3 {
+        padding: 0 1rem;
+        max-width: 700px;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 1280px) {
+    .container {
+        max-width: 1280px;
+        margin: 0 auto;
+    }
+
+    .container1 {
+        max-width: 1175px;
+        margin: 0 auto;
+    }
+
+    .container3 {
+        max-width: 760px;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 1536px) {
+    .container {
+        max-width: 1280px;
+        margin: 0 auto;
+    }
+
+    .container1 {
+        max-width: 1175px;
+        margin: 0 auto;
+    }
+
+    .container3 {
+        max-width: 760px;
+        margin: 0 auto;
+    }
+}
+
+/* Display */
+.hidden {
+    display: none;
+}
+
+.block {
+    display: block;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.flex {
+    display: flex;
+}
+
+@media only screen and (max-width: 750px) {
+    .flex {
+        display: block;
+    }
+}
+
+.grid {
+    display: grid;
+}
+
+/* Position */
+.fixed {
+    position: fixed;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.relative {
+    position: relative;
+}
+
+/* Flex Direction */
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+/* Flex Wrap */
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+/* Flex */
+.flex-1 {
+    flex: 1 1 0%;
+}
+
+.flex-auto {
+    flex: 1 1 auto;
+}
+
+.flex-none {
+    flex: none;
+}
+
+/* Order */
+.order-1 {
+    order: 1;
+}
+
+.order-2 {
+    order: 2;
+}
+
+.order-3 {
+    order: 3;
+}
+
+.order-first {
+    order: -9999;
+}
+
+.order-last {
+    order: 9999;
+}
+
+/* Justify Content */
+.justify-start {
+    justify-content: flex-start;
+}
+
+.justify-end {
+    justify-content: flex-end;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-around {
+    justify-content: space-around;
+}
+
+/* Align Items */
+.items-start {
+    align-items: flex-start;
+}
+
+.items-end {
+    align-items: flex-end;
+}
+
+.items-center {
+    align-items: center;
+}
+
+/* Padding */
+.p-0 {
+    padding: 0px;
+}
+
+.p-1 {
+    padding: 1rem;
+}
+
+.px-1 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.pr-1 {
+    padding-left: 1rem;
+}
+
+.pl-1 {
+    padding-right: 1rem;
+}
+
+.py-1 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.pt-0 {
+    padding-top: 0px;
+}
+
+.pt-1 {
+    padding-top: 1rem;
+}
+
+.pb-0 {
+    padding-bottom: 0px;
+}
+
+.pb-1 {
+    padding-bottom: 1rem;
+}
+
+/* Margin */
+.m-0 {
+    margin: 0px;
+}
+
+.m-1 {
+    margin: 1rem;
+}
+
+.mx-0 {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.my-0 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.ml-0 {
+    margin-left: 0px;
+}
+
+.mr-0 {
+    margin-right: 0px;
+}
+
+.mt-0 {
+    margin-top: 0px;
+}
+
+.mb-0 {
+    margin-bottom: 0px;
+}
+
+/* Width */
+.w-0 {
+    width: 0px;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.w-screen {
+    width: 100vw;
+}
+
+/* Height */
+.h-0 {
+    height: 0;
+}
+
+.h-full {
+    height: 100%;
+}
+
+.h-screen {
+    height: 100vh;
+}
+
+/* Font Size */
+.text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+}
+
+/* Font Weight */
+.font-100 {
+    font-weight: 100;
+}
+
+.font-500 {
+    font-weight: 500;
+}
+
+/* Text Alignment */
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* Text Color */
+.text-transparent {
+    color: transparent;
+}
+
+.text-black {
+    color: rgba(0, 0, 0, 1);
+}
+
+.text-white {
+    color: rgba(255, 255, 255, 1);
+}
+
+/* Text Decoration */
+.underline {
+    text-decoration: underline;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+.no-underline {
+    text-decoration: none;
+}
+
+/* Background Color */
+.bg-transparent {
+    background-color: transparent;
+}
+
+.bg-black {
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.bg-white {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+/* Opacity */
+.opacity-0 {
+    opacity: 0;
+}
+
+.opacity-100 {
+    opacity: 1;
+}
+
+/* Cursor */
+.cursor-pointer {
+    cursor: pointer;
+}
