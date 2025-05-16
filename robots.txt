@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Sitemap: https://mamamiya-new.github.io/sitemap.xml
+
+# 禁止爬虫访问广告相关文件
+Disallow: /SleepMusic_files/ads_*
+Disallow: /SleepMusic_files/zrt_* 
